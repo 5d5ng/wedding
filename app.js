@@ -117,8 +117,8 @@
   txt('venue', W.venue); txt('hall', W.hall); txt('addrText', W.address); txt('addrSub', W.addressSub);
   var q = encodeURIComponent(W.mapQuery);
   $('map').src = 'https://www.google.com/maps?q=' + q + '&z=16&output=embed';
-  $('naverMap').href = 'https://map.naver.com/p/search/' + q;
-  $('kakaoMap').href = 'https://map.kakao.com/link/search/' + q;
+  $('naverMap').href = 'https://map.naver.com/p/search/' + encodeURIComponent(W.naverQuery || W.mapQuery);
+  $('kakaoMap').href = W.kakaoPlaceUrl || ('https://map.kakao.com/link/search/' + q);
   (W.route || []).forEach(function (r) { var row = el('div'); row.appendChild(el('b', null, r.title)); row.appendChild(el('span', null, r.text)); $('route').appendChild(row); });
 
   // info
