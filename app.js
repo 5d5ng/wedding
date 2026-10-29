@@ -35,6 +35,7 @@
   txt('greeting', W.greeting);
   txt('sign', '신랑 ' + W.groom.name + ' · 신부 ' + W.bride.name);
   if (W.midPhoto) $('midPhoto').src = P + W.midPhoto; else $('midPhoto').hidden = true;
+  if (W.endPhoto) $('endPhoto').src = P + W.endPhoto; else $('endPhoto').hidden = true;
 
   // family
   function par(p) { return [p.father, p.mother].filter(Boolean).join(' · '); }

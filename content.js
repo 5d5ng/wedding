@@ -30,6 +30,7 @@ window.WEDDING = {
     '지켜나갈 수 있도록\n' +
     '앞날을 축복해 주시면 감사하겠습니다.',
   midPhoto: 'mid.jpg',       // 인사말 아래 큰 사진
+  endPhoto: 'end.jpg',       // 맨 아래 감사 문구 위 큰 사진
 
   groom: {
     name: '동의', fullName: '오동의',
