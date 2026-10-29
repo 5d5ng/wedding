@@ -29,7 +29,7 @@ window.WEDDING = {
     '저희 두 사람이 사랑의 이름으로\n' +
     '지켜나갈 수 있도록\n' +
     '앞날을 축복해 주시면 감사하겠습니다.',
-  midPhoto: 'gallery/09.jpg',       // 인사말 아래 큰 사진
+  midPhoto: 'mid.jpg',       // 인사말 아래 큰 사진
 
   groom: {
     name: '동의', fullName: '오동의',
@@ -54,7 +54,7 @@ window.WEDDING = {
   gallery: [
     '01.jpg','02.jpg','03.jpg','04.jpg','05.jpg','06.jpg','07.jpg','08.jpg','09.jpg',
     '10.jpg','11.jpg','12.jpg','13.jpg','14.jpg','15.jpg','16.jpg','17.jpg','18.jpg',
-    '19.jpg','20.jpg','21.jpg','22.jpg','23.jpg','24.jpg','25.jpg'
+    '19.jpg','20.jpg','21.jpg','22.jpg','23.jpg','24.jpg'
   ],
   galleryRandom: true,
   galleryFirst: 9,                  // 처음에 보여줄 장수 (나머지는 '더 보기')

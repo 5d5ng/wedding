@@ -10,7 +10,7 @@
 window.WEDDING = {
 
   // ── 첫 화면 ──────────────────────────────────────────
-  coverPhoto: '../photos/cover.jpg',
+  coverPhoto: 'photos/cover.jpg',
   coverScript: 'Our Wedding Day',
   coverNames: '동의 그리고 예원',
 
@@ -31,7 +31,7 @@ window.WEDDING = {
   groom: {
     name: '동의', fullName: '오동의',
     father: '오원환', mother: '김혜란', relation: '아들',
-    photo: '../photos/groom.jpg',
+    photo: 'photos/groom.jpg',
     tags: ['#계획형', '#여행러버', '#예원바라기'],
     intro: '계획은 꼼꼼하게, 여행은 설레게.\n예원이 웃는 모습을 세상에서\n제일 좋아하는 사람입니다.',
     phone: ''            // 예: '010-1234-5678' (비우면 연락하기에서 숨김)
@@ -39,7 +39,7 @@ window.WEDDING = {
   bride: {
     name: '예원', fullName: '최예원',
     father: '최중석', mother: '백병순', relation: '딸',
-    photo: '../photos/bride.jpg',
+    photo: 'photos/bride.jpg',
     tags: ['#다정함', '#웃음버튼', '#동의짝꿍'],
     intro: '따뜻한 말 한마디로\n하루를 환하게 바꾸는 사람.\n동의의 가장 친한 친구이자 평생의 짝꿍입니다.',
     phone: ''

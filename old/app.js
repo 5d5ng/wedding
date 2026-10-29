@@ -96,7 +96,7 @@
   var pool = ['big', 'big', 'tall', 'tall', 'tall'], pi = 0, cur = 0, grid = $('grid');
   list.forEach(function (f, idx) {
     var b = el('button'); b.setAttribute('aria-label', '사진 ' + (idx + 1) + ' 크게 보기');
-    var img = el('img'); img.src = '../photos/gallery/' + f; img.alt = ''; img.loading = 'lazy';
+    var img = el('img'); img.src = 'photos/gallery/' + f; img.alt = ''; img.loading = 'lazy';
     img.onload = function () {
       if (img.naturalWidth > img.naturalHeight * 1.15) b.className = 'wide';
     };
@@ -105,7 +105,7 @@
     b.onclick = function () { cur = idx; showLb(); $('lb').hidden = false; };
     grid.appendChild(b);
   });
-  function showLb() { $('lbImg').src = '../photos/gallery/' + list[cur]; $('lbImg').alt = '웨딩 사진 ' + (cur + 1); txt('lbNum', (cur + 1) + ' / ' + list.length); }
+  function showLb() { $('lbImg').src = 'photos/gallery/' + list[cur]; $('lbImg').alt = '웨딩 사진 ' + (cur + 1); txt('lbNum', (cur + 1) + ' / ' + list.length); }
   $('lbPrev').onclick = function () { cur = (cur + list.length - 1) % list.length; showLb(); };
   $('lbNext').onclick = function () { cur = (cur + 1) % list.length; showLb(); };
   var sx = null;
