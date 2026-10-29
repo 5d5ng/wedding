@@ -84,7 +84,9 @@ window.WEDDING = {
   // ── 마음 전하실 곳 ───────────────────────────────────
   accounts: {
     groom: [
-      { label: '신랑', name: '오동의', bank: '우리은행', number: '1002-052-863923' }
+      { label: '신랑', name: '오동의', bank: '우리은행', number: '1002-052-863923' },
+      { label: '아버지', name: '오원환', bank: '농협', number: '83502152012511' },
+      { label: '어머니', name: '김혜란', bank: '농협', number: '3528514145193' }
     ],
     bride: [
       { label: '신부', name: '최예원', bank: '농협', number: '312-0084-3833-61' },
