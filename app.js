@@ -20,6 +20,8 @@
   // cover
   $('coverImg').src = P + W.coverPhoto;
   txt('coverScript', W.coverScript);
+  txt('coverDate', D.year + ' · ' + p2(D.month) + ' · ' + p2(D.day));
+  txt('coverNames', W.coverNames);
 
   // date band — letters appear one by one when scrolled into view
   txt('names', W.names); txt('inviteLine', W.inviteLine);

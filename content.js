@@ -12,6 +12,7 @@ window.WEDDING = {
   // ── 첫 화면 ──────────────────────────────────────────
   coverPhoto: 'cover.jpg',
   coverScript: 'Our Wedding Day',
+  coverNames: '동의 그리고 예원',
   names: '동의 · 예원',
   inviteLine: '소중한 분들을 결혼식에 초대합니다',
 
