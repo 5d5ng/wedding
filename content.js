@@ -103,5 +103,5 @@ window.WEDDING = {
   shareText: '2027년 2월 21일(일) 15시 30분\n라마다서울신도림호텔 2층 그랜드볼룸',
   shareImage: 'https://5d5ng.github.io/wedding/photos/share.jpg',
   shareUrl: 'https://5d5ng.github.io/wedding/',
-  kakaoJsKey: ''   // 카카오 개발자 앱의 JavaScript 키를 넣으면 '카카오톡으로 전하기'가 카드 형태로 전송돼요
+  kakaoJsKey: '8ab2ffe01cf65c855ef1f104d1d2d2a7'   // 카카오 개발자 앱의 JavaScript 키를 넣으면 '카카오톡으로 전하기'가 카드 형태로 전송돼요
 };
