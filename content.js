@@ -110,7 +110,7 @@ window.WEDDING = {
   thanks: '저희 두 사람의 소중한 시작을 함께 축하해 주시기 위해\n귀한 시간을 내어 주신 모든 분들께 진심으로 감사드립니다.\n\n따뜻한 마음과 축복을 소중히 여기며 살아가겠습니다.',
   shareTitle: '오동의 🩵 최예원 결혼합니다',
   shareText: '2027년 2월 21일 일요일 오후 3시 30분\n라마다서울신도림호텔 2층 그랜드볼룸',
-  shareImage: 'https://5d5ng.github.io/wedding/photos/thumb-02114.jpg',
-  shareUrl: 'https://5d5ng.github.io/wedding/',
+  shareImage: 'https://dongeui-yewon.pages.dev/photos/thumb-02114.jpg',
+  shareUrl: 'https://dongeui-yewon.pages.dev/',
   kakaoJsKey: '8ab2ffe01cf65c855ef1f104d1d2d2a7'   // 카카오 개발자 앱의 JavaScript 키를 넣으면 '카카오톡으로 전하기'가 카드 형태로 전송돼요
 };

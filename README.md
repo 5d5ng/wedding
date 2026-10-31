@@ -1,6 +1,6 @@
 # 동의 ♥ 예원 모바일 청첩장
 
-주소: https://5d5ng.github.io/wedding/
+주소: https://dongeui-yewon.pages.dev/
 
 ## 폰에서 고치는 법 (GitHub 앱 또는 github.com)
 
