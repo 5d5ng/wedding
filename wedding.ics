@@ -9,7 +9,8 @@ DTSTAMP:20261022T000000Z
 DTSTART:20270221T063000Z
 DTEND:20270221T083000Z
 SUMMARY:동의 ♥ 예원 결혼식
-LOCATION:라마다 서울 신도림 호텔 2층 그랜드볼룸 (서울 구로구 경인로 624)
+LOCATION:라마다 서울 신도림 호텔 2층 그랜드볼룸 (서울 구
+ 로구 경인로 624)
 DESCRIPTION:https://5d5ng.github.io/wedding/
 BEGIN:VALARM
 TRIGGER:-P1D
