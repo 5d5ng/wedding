@@ -45,7 +45,7 @@ window.WEDDING = {
     father: '오원환', mother: '김혜란', relation: '아들',
     photo: 'groom.jpg',
     tags: ['#계획형', '#여행러버', '#예원바라기'],
-    intro: '계획은 꼼꼼하게, 여행은 설레게.\n예원이 웃는 모습을 세상에서\n제일 좋아하는 사람입니다.',
+    intro: '계획은 꼼꼼하게,\n여행은 설레게.\n예원이 웃는 모습을\n세상에서 제일 좋아하는\n사람입니다.',
     phone: ''
   },
   bride: {
@@ -53,7 +53,7 @@ window.WEDDING = {
     father: '최중석', mother: '백병순', relation: '딸',
     photo: 'bride.jpg',
     tags: ['#다정함', '#웃음버튼', '#동의짝꿍'],
-    intro: '따뜻한 말 한마디로\n하루를 환하게 바꾸는 사람.\n동의의 가장 친한 친구이자 평생의 짝꿍입니다.',
+    intro: '따뜻한 말 한마디로\n하루를 환하게 바꾸는 사람.\n동의의 가장 친한 친구이자\n평생의 짝꿍입니다.',
     phone: ''
   },
   groomParentsPhone: '',
