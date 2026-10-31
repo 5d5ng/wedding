@@ -101,7 +101,8 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--sky-deep);outline-o
 .dday{margin-top:18px;font-size:14px}
 .dday b{color:var(--sky-deep)}
 .calsave{margin-top:22px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-.calsave a{height:44px;border:1px solid var(--line);border-radius:10px;background:var(--bg);font-size:13px;text-decoration:none;display:flex;align-items:center;justify-content:center}
+.calsave a:first-child,.calsave button{grid-column:1/-1}
+.calsave a,.calsave button{height:44px;border:1px solid var(--line);border-radius:10px;background:var(--bg);font-size:13px;text-decoration:none;display:flex;align-items:center;justify-content:center}
 
 /* location */
 .venue{margin-top:20px;font-size:15px;font-weight:500}
@@ -216,6 +217,8 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--sky-deep);outline-o
     <div class="calsave">
       <a id="gcal" target="_blank" rel="noopener">구글 캘린더 저장</a>
       <a id="acal" href="wedding.ics">아이폰 캘린더 저장</a>
+      <a id="scal" href="wedding.ics">갤럭시 캘린더 저장</a>
+      <button id="ccopy">일정 복사</button>
     </div>
   </section>
 

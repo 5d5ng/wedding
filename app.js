@@ -87,6 +87,7 @@
   function utc(dt) { return dt.getUTCFullYear() + p2(dt.getUTCMonth() + 1) + p2(dt.getUTCDate()) + 'T' + p2(dt.getUTCHours()) + p2(dt.getUTCMinutes()) + '00Z'; }
   var st = new Date(Date.UTC(D.year, D.month - 1, D.day, D.hour - 9, D.minute)), en = new Date(st.getTime() + 7200000);
   $('gcal').href = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(W.groom.name + ' ♥ ' + W.bride.name + ' 결혼식') + '&dates=' + utc(st) + '/' + utc(en) + '&location=' + encodeURIComponent(W.venue + ' ' + W.hall) + '&details=' + encodeURIComponent(url);
+  $('ccopy').onclick = function () { copy(W.groom.name + ' ♥ ' + W.bride.name + ' 결혼식\n' + W.dateKo + '\n' + W.venue + ' ' + W.hall, '일정을 복사했어요'); };
 
   // location
   txt('venue', W.venue); txt('hall', W.hall); txt('addrText', W.address);
