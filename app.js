@@ -62,7 +62,7 @@
     var p = x[2]; if (!p.photo) return;
     var b = el('div', 'prof'), im = el('img'); im.src = P + p.photo; im.alt = x[1] + ' ' + p.name; im.loading = 'lazy';
     b.appendChild(im); b.appendChild(el('div', 'role', x[0])); b.appendChild(el('div', 'nm', p.name));
-    if (p.tags && p.tags.length) b.appendChild(el('div', 'tags', p.tags.join(' ')));
+    if (p.tags && p.tags.length) { var tg = el('div', 'tags'); p.tags.forEach(function (t, i) { if (i) tg.appendChild(document.createTextNode(' ')); tg.appendChild(el('span', null, t)); }); b.appendChild(tg); }
     if (p.intro) b.appendChild(el('p', 'pre', p.intro));
     $('profiles').appendChild(b);
   });
