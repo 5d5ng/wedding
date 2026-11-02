@@ -124,7 +124,8 @@
 
   // gallery
   var list = (W.gallery || []).slice(), cur = 0, firstN = W.galleryFirst || 9;
-  if (W.galleryRandom) for (var k = list.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var tmp = list[k]; list[k] = list[j]; list[j] = tmp; }
+  var top = W.galleryTop || 0;
+  if (W.galleryRandom) for (var k = list.length - 2; k > top; k--) { var j = top + Math.floor(Math.random() * (k - top + 1)); var tmp = list[k]; list[k] = list[j]; list[j] = tmp; }
   list.forEach(function (f, idx) {
     var b = el('button'); b.setAttribute('aria-label', '사진 ' + (idx + 1) + ' 크게 보기'); if (idx >= firstN) b.hidden = true;
     var im = el('img'); im.src = P + 'gallery/' + f; im.alt = ''; im.loading = 'lazy'; b.appendChild(im);
